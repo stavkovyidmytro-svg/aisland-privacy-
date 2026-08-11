@@ -1,0 +1,96 @@
+После создания — как в прошлый раз: creating a new file → имя index.html → вставьте текст ниже → Commit changes:
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Island — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 680px; margin: 0 auto; padding: 32px 20px 80px; line-height: 1.6; color: #1c1c1e; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 2.2em; }
+  .updated { color: #6e6e73; font-size: 0.9rem; margin-bottom: 2em; }
+  ul { padding-left: 1.2em; }
+  li { margin-bottom: 0.4em; }
+  a { color: #0066cc; }
+  code { background: #f2f2f7; padding: 0.1em 0.4em; border-radius: 4px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>AI Island — Privacy Policy</h1>
+<p class="updated">Last updated: August 11, 2026</p>
+
+<p>AI Island is an iPhone app that shows your usage of AI coding tools
+(Claude Code, ChatGPT/Codex, Perplexity, GitHub Copilot) in the Dynamic
+Island, Lock Screen, and widgets. This page describes, plainly, what the app
+does with your data.</p>
+
+<h2>The short version</h2>
+<ul>
+  <li>AI Island has <strong>no account server</strong>. We do not operate any
+      backend that receives, stores, or processes your data.</li>
+  <li>We do not collect, sell, or share your personal data with anyone,
+      because we never receive it in the first place.</li>
+  <li>The app includes no advertising or analytics SDKs of any kind.</li>
+</ul>
+
+<h2>What the app does with your data</h2>
+<p>When you connect an AI provider account, the app talks directly to that
+provider (Claude, OpenAI/ChatGPT, Perplexity, or GitHub) to read your usage
+figures. That connection is between your iPhone and the provider you chose —
+it does not pass through us.</p>
+<ul>
+  <li><strong>Credentials</strong> (session tokens or API keys you provide)
+      are stored in the iPhone Keychain, protected by the operating system,
+      and are only ever sent to the provider you connected them to.</li>
+  <li><strong>Usage figures</strong> (cost, token counts, reset times) are
+      kept in a local App Group container shared only between the app and its
+      widget/Live Activity extension, so they can be displayed on your Lock
+      Screen and Home Screen. This data never leaves your device.</li>
+</ul>
+
+<h2>Optional: Mac bridge (Pro feature)</h2>
+<p>Pro subscribers can optionally run a small background script on their own
+Mac that summarizes local Claude Code logs and writes a reduced usage summary
+(cost, token counts — never prompts or conversation content) to a
+<strong>private GitHub Gist that you create and own</strong>. The iPhone app
+then reads that gist using a token you provide. We never see this data; it
+travels directly between your Mac, GitHub, and your iPhone.</p>
+
+<h2>What we don't do</h2>
+<ul>
+  <li>We don't track you across other apps or websites.</li>
+  <li>We don't use advertising identifiers.</li>
+  <li>We don't sell or share data with data brokers — we have none to sell.</li>
+  <li>We don't require an account with us to use the app.</li>
+</ul>
+
+<h2>Third-party services you connect</h2>
+<p>Your use of Claude, ChatGPT/OpenAI, Perplexity, or GitHub through this app
+is subject to each provider's own privacy policy and terms, since your data
+is read directly from their services:</p>
+<ul>
+  <li><a href="https://www.anthropic.com/legal/privacy">Anthropic Privacy Policy</a></li>
+  <li><a href="https://openai.com/policies/privacy-policy/">OpenAI Privacy Policy</a></li>
+  <li><a href="https://www.perplexity.ai/hub/legal/privacy-policy">Perplexity Privacy Policy</a></li>
+  <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">GitHub Privacy Statement</a></li>
+</ul>
+
+<h2>Children's privacy</h2>
+<p>AI Island is not directed at children under 13, and we do not knowingly
+collect data from anyone, of any age — the app has no server to collect it
+with.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, we'll update the date above. Since the app collects
+nothing on our end, changes here would only ever describe new optional
+features, not a change in how existing data is handled.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:info@stormkov.com">info@stormkov.com</a></p>
+
+</body>
+</html>
