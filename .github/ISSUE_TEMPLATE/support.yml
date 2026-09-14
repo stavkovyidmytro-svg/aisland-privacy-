@@ -1,0 +1,42 @@
+name: AI Island support request
+description: Ask for help with setup, purchases, widgets, or Live Activities.
+title: "[Support] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contacting AI Island Support. Do not include passwords, session tokens, purchase receipts, or other private credentials.
+  - type: dropdown
+    id: area
+    attributes:
+      label: What do you need help with?
+      options:
+        - Connecting a provider
+        - Usage data or refresh
+        - Widget, Live Activity, or Dynamic Island
+        - Subscription or purchase restoration
+        - Privacy or data deletion
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: ios
+    attributes:
+      label: iOS version
+      placeholder: Example: iOS 26.5
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened?
+      description: Describe the expected result and what you saw instead. Remove all private account information.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, session tokens, receipts, and other private credentials from this report.
+          required: true
