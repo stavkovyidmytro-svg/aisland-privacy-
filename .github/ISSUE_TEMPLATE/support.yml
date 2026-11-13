@@ -1,11 +1,11 @@
 name: AI Island support request
-description: Ask for help with setup, purchases, widgets, or Live Activities.
+description: Ask for help with setup, widgets, Live Activities, or Apple Watch.
 title: "[Support] "
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for contacting AI Island Support. Do not include passwords, session tokens, purchase receipts, or other private credentials.
+        Thanks for contacting AI Island Support. Do not include passwords, session tokens, or other private credentials.
   - type: dropdown
     id: area
     attributes:
@@ -14,7 +14,7 @@ body:
         - Connecting a provider
         - Usage data or refresh
         - Widget, Live Activity, or Dynamic Island
-        - Subscription or purchase restoration
+        - Apple Watch app or complications
         - Privacy or data deletion
         - Something else
     validations:
